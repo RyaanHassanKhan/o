@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class eo {
+public class createArr {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -15,6 +15,7 @@ public class eo {
         for(int i=0;i<n;i++){
             System.out.println("the elements of array at index" + i+"="+arr[i]+",");
         }
+        
 
         sc.close();
     }
